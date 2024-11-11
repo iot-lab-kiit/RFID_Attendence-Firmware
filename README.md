@@ -6,17 +6,18 @@ The RFID-based attendance system here is developed on the ESP8266 platform, with
 When the person with the correct RFID card swipes  their RFID tag, their arrival time will be logged by the system. Usually, when the same person swipes his/her RFID tag again, the system will log it as him/her leaving.
 
 
-#System Overview
+## System Overview
+
 We have used the NodeMCU ESP8266 development board with MF-RC522 Module to send the card UID to our PHP Web application, which stores data in the website's database. Basically, the admin plays an important role in the management of this system.
 
 
-#Logic Flow
+## Logic Flow
 [Flowchart here]
 
 
-#Code Review
+## Code Review
 [Mention main components of the code]
 
 
-#Deploy Yourself
+## Deploy Yourself
 The RFID-based attendance system is developed to be very easy to setup on your server....
