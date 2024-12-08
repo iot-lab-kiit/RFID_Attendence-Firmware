@@ -8,8 +8,8 @@ const char *ssid = "IOT_DEVICES";
 const char *password = "iot_lab_devices";
 
 // MQTT Broker details
-const char *mqtt_broker = "test.mosquitto.org";
-const char *topic = "test/MQTT-RFID";
+const char *mqtt_broker = "broker.mqtt.cool";
+const char *topic = "test/topic-priyanshu";
 const int mqtt_port = 1883;
 
 // RFID pins and MFRC522 instance
